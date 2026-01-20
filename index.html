@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media-query.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Meu Site</h1>
+      <i class="bi bi-list" id="burguer" onclick="clickMenu()"></i>
+      <nav id="nav">
+        <ul>
+          <li><a href="#">Opção 1</a></li>
+          <li><a href="#">Opção 2</a></li>
+          <li><a href="#">Opção 3</a></li>
+          <li><a href="#">Opção 4</a></li>
+          <li><a href="#">Opção 5</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <article>
+        <h2>Testando Media Queries</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nam
+          quod voluptate amet molestias harum et eligendi odio rerum omnis.
+          Unde, dolor tempora incidunt repellendus voluptatem mollitia adipisci
+          consectetur neque. Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Ratione impedit dolore ut a dolor quas adipisci iste consectetur
+          tenetur hic maiores corporis praesentium eveniet labore, deleniti
+          debitis minima at incidunt.
+        </p>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
+          numquam maiores voluptas sint ducimus, ullam quas minus, reprehenderit
+          odit nam facilis debitis iste corporis consequuntur sapiente a dolore
+          cumque enim. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Cumque magnam perspiciatis dignissimos a veniam neque fugiat, natus
+          corrupti quasi rerum aliquam aut similique magni quod, aliquid
+          voluptate saepe voluptatem vero!
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam facere
+          est omnis iure? Ut dicta voluptate ducimus alias non sapiente
+          aspernatur quo sint assumenda, earum molestiae, sunt maiores modi
+          explicabo? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Similique, quibusdam. Inventore nihil et sapiente quisquam. Illum
+          exercitationem incidunt iure cum culpa. Facilis, deserunt? Nihil eum
+          ex ea, obcaecati at voluptates.
+        </p>
+      </article>
+    </main>
+    <script>
+      function clickMenu() {
+        if (nav.style.display == "block") {
+          nav.style.display = "none";
+        } else {
+          nav.style.display = "block";
+        }
+      }
+    </script>
+  </body>
+</html>
